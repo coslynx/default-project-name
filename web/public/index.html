@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Discord Music Bot</title>
+  <link rel="stylesheet" href="stylesheets/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Discord Music Bot</h1>
+    <p>A web interface for controlling the Discord Music Bot.</p>
+    <div id="playlists">
+      <h2>Playlists</h2>
+      <ul>
+        </ul>
+    </div>
+    <div id="player">
+      <h2>Now Playing</h2>
+      <div class="player-controls">
+        <button id="play">Play</button>
+        <button id="pause">Pause</button>
+        <button id="stop">Stop</button>
+        <button id="skip">Skip</button>
+        <input type="range" id="volume" min="0" max="100" value="50">
+      </div>
+      <div id="song-info">
+        <span id="song-title"></span>
+        <span id="song-artist"></span>
+      </div>
+    </div>
+  </div>
+  <script src="javascripts/script.js"></script>
+</body>
+</html>
